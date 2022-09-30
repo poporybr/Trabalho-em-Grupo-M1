@@ -14,6 +14,12 @@ body {
 
 /*parte executada por Monique*/
 
+[vw] [vw-access-button] .access-button {
+    width: 27%;
+    height: 27%;
+    float: right;
+}
+
 #menu {
     background-color: white;
     width: 100%;
