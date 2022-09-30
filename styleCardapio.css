@@ -20,6 +20,15 @@ body {
     float: right;
 }
 
+[vw] [vw-access-button] .pop-up {
+    float: right;
+    width: 0%;
+    height: 10%;
+    margin-right: 6px;
+    -webkit-transition: width 2s;
+    transition: width 0.5s;
+}
+
 #menu {
     background-color: white;
     width: 100%;
