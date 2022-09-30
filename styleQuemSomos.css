@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    font-family: Inter;
+}
+
+#menu  {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0px 0px;
+    padding: 20px 0 20px 0;
+    width: 100%;
+
+}
+
+#menu h2 {
+    color: #dda15e;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+h2 a:hover,
+a:link,
+a:active,
+a:visited {
+    text-decoration: none;
+}
+
+#menu span {
+    color: #606c38;
+    font-weight: 800;
+}
+
+#menu ul a {
+    color: #283618;
+    text-decoration: none;
+    margin: 0 30px;
+}
+
+#menu ul a:hover {
+    color: #dda15e;
+    transition: .4s;
+}
+
+.btn {
+    background-color: #dda15e;
+    color: white;
+    text-decoration: none;
+    border: 12px solid transparent;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: transform .4s;
+}
+
+.btn:hover {
+    background-color: #606c38;
+}
+
+.container_foto{
+    width: 1575px;
+    height: 280px;
+    padding: 10px;
+    border-radius: 15px;
+    border: solid blue 2px;
+}
+
+.break_line{
+    margin-right: 0px;
+    margin-left: 0px;
+    height: 30px;
+    background-image: url(imagens-quemsomos/break_line.png);
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.nossa_historia{
+    padding-top: 10px;
+}
+
+main{
+    text-align: center;
+    padding-top: 30px;
+}
+
+.p1{
+    margin-left: 300px;
+    margin-right: 300px;
+    font-size: 24px;
+}
+
+.p2{
+    margin-left: 300px;
+    margin-right: 300px;
+    font-size: 24px;
+}
+
+.p3{
+    margin-left: 300px;
+    margin-right: 300px;
+    font-size: 24px;
+}
+
+.michelin{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.michelin :hover{
+    color: #606c38;
+}
+
+.origem{
+    color: #dda15e;
+}
+
+.brasileira{
+    color: #606c38;
+}
+.quemsomos{
+    background-image: url(imagens-quemsomos/fotoprincipal.jpg);
+    height: 40vh;
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+    background-size:auto;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.quemsomos h1{
+    font-size: 50px;
+}
+
+footer {
+    padding-bottom: 0px;
+    background-color: #606c38;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 2.60416% 200px; 
+}
+
+footer h2 {
+    color: #dda15e;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 1.5625em; 
+    float: left;
+}
+
+footer span {
+    font-weight: 800;
+    margin: 0 0 0 30%;
+}
+
+.text1 {
+    width: auto;
+    height: 109px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    float: right;
+    padding: 30px 0; 
+}
+
+footer ul a {
+    color: white;
+    padding: 5px 30px; 
+}
+
+footer ul a:hover{
+    color: #dda15e;
+    transition: .4s;
+}
+
+footer ul a:hover,
+a:link,
+a:active,
+a:visited {
+    text-decoration: none;
+}
+.grupo{
+    background-color: #606c38;
+    height: 100px;
+}
+.grupo a {
+    color: white;
+    padding-top: 20px; 
+}
+
+.grupo a:hover{
+    color: #dda15e;
+    transition: .4s;
+}
+
+.grupo a:hover,
+a:link,
+a:active,
+a:visited {
+    text-decoration: none;
+    
+}

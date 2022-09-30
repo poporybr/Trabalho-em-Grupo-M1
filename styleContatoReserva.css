@@ -1,0 +1,523 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  font-family: Inter;
+}
+
+header #menu {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0px 230px;
+  padding: 20px 0 20px 0;
+}
+
+header #menu h2 {
+  color: #dda15e;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 25px;
+}
+
+h2 a:hover,
+a:link,
+a:active,
+a:visited {
+  text-decoration: none;
+}
+
+header #menu span {
+  color: #606c38;
+  font-weight: 800;
+}
+
+header #menu ul a {
+  color: #283618;
+  text-decoration: none;
+  margin: 0 30px;
+}
+
+header #menu ul a:hover {
+  color: #dda15e;
+  transition: 0.4s;
+}
+header .contres {
+  background-image: url("imagens-contato/menucr.jpg");
+  height: 40vh;
+  width: 100%;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  border-radius: 10px;
+  margin-top: 10px;
+  background-size: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 4em;
+  color: white;
+  text-shadow: 8px 2px #dda15e;
+}
+.btn {
+  background-color: #dda15e;
+  color: white;
+  text-decoration: none;
+  border: 12px solid transparent;
+  font-weight: bold;
+  border-radius: 10px;
+  transition: 0.4s;
+}
+
+.btn:hover {
+  background-color: #606c38;
+}
+
+/*==contato==*/
+
+#contto {
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px 45px;
+  background: #bc6c25;
+  width: 500px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-block-end: 20px;
+  border-radius: 20px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.btnnovo{
+  text-decoration: none;
+  text-align: center;
+  background-color: #dda15e;
+    width: 100px;
+    color: #283618;
+    text-decoration: none;
+    border: 12px solid transparent;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: transform .4s;
+}
+
+.btnnovo:hover{
+  background-color: white;
+  transition: transform .4s;
+}
+
+#contto h2 {
+  color: #f5f5f5;
+  font-size: 2.5rem;
+  margin: 2rem;
+  text-shadow: 3px 1px #dda15e;
+}
+#contto form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+form label {
+  color: #f5f5f5;
+  font-size: 17px;
+  margin-bottom: 4px;
+  text-shadow: 2px 1px #dda15e;
+}
+form input {
+  padding: 10px;
+  outline: none;
+  border: 0;
+  margin-bottom: 10px;
+  font-size: 20px;
+  transition: all 0.5s;
+  border-radius: 16px;
+}
+form textarea {
+  padding: 10px;
+  outline: none;
+  border: 0;
+  font-size: 15px;
+  margin-bottom: 30px;
+  transition: all 0.5s;
+  border-radius: 16px;
+}
+form button {
+  padding: 15px;
+  cursor: pointer;
+  font-size: 16px;
+  background: transparent;
+  border: 2px solid #f5f5f5;
+  color: #f5f5f5;
+  transition: all 1s;
+  margin-bottom: 20px;
+  border-radius: 16px;
+}
+form button:hover {
+  background: #f5f5f5;
+  color: #283618;
+}
+
+/*==Pag do Obrigado==*/
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 87.4vh;
+  background: url(imagens-contato/menuobg.jpg);
+  background-size: cover;
+  flex-direction: column;
+}
+.text {
+  font-size: 12vh;
+  color: #f5f5f5;
+  margin-bottom: 30px;
+  text-shadow: 10px 5px #dda15e;
+}
+.paragrafo {
+  color: #f5f5f5;
+  margin-bottom: 50px;
+  font-size: 6vh;
+  text-shadow: 5px 1px #dda15e;
+}
+.btnc {
+  background-color: #dda15e;
+  color: white;
+  text-decoration: none;
+  border: 12px solid transparent;
+  font-weight: bold;
+  font-size: 3vh;
+  border-radius: 10px;
+  transition: 0.4s;
+}
+
+.btnc:hover {
+  background-color: #606c38;
+}
+
+/*==Reservas==*/
+
+.reserv .mapa {
+  float: right;
+}
+.reserv {
+  float: right;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  margin-top: 40px;
+  margin-right: 5px;
+}
+.btnr {
+  background-color: #dda15e;
+  color: white;
+  text-decoration: none;
+  border: 12px solid transparent;
+  font-weight: bold;
+  font-size: 4vh;
+  border-radius: 10px;
+  transition: 0.4s;
+  margin-right: 20px;
+  position: absolute;
+}
+.imgrs {
+  position: absolute;
+  width: 50%;
+  height: 30vh;
+  border-radius: 30px;
+  z-index: -1;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
+    rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.btnr:hover {
+  background-color: #606c38;
+}
+.imagemReserva{
+  border-radius: 10px;
+  height: auto;
+}
+
+/*==Mapa==*/
+
+.mapa {
+  float: right;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  margin-top: 300px;
+  height: 60vh;
+  width: 40vh;
+}
+.map {
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  border-radius: 16px;
+  width: 600px;
+}
+
+/*==Rodapé==*/
+
+footer {
+  background-color: #606c38;
+  width: 94.9%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: .60416% 50px; /*==localidade do texto==*/
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+footer h2 {
+  color: #dda15e;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 1.5625em; /*25px*/
+  float: left;
+}
+
+footer span {
+  font-weight: 800;
+  margin: 0 0 0 30%;
+}
+
+.text1 {
+  width: auto;
+  height: 109px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  float: right;
+  padding: 30px 0; /*200px*/
+}
+
+footer ul a {
+  color: white;
+  padding: 5px 30px; /*10px*/
+}
+
+footer ul a:hover {
+  color: #dda15e;
+  transition: 0.4s;
+}
+
+footer ul a:hover,
+a:link,
+a:active,
+a:visited {
+  text-decoration: none;
+}
+
+.copy {
+  color: white;
+}
+.grupo {
+  background-color: #606c38;
+}
+.grupo a {
+  color: white;
+  padding-top: 20px;
+}
+.grupo a:hover {
+  color: #dda15e;
+  transition: 0.4s;
+}
+.grupo a :hover,
+a:link,
+a:active,
+a:visited {
+  text-decoration: none;
+}
+/*==Pág de Reserva==*/
+header .reser {
+  background-image: url("imagens-contato/reserve.jpg");
+  height: 40vh;
+  width: 100%;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  border-radius: 10px;
+  margin-top: 10px;
+  background-size: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 4em;
+  color: white;
+  text-shadow: 8px 2px #dda15e;
+}
+#reservs .container {
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+#reservs .container input[type="radio"] {
+  display: none;
+}
+
+#reservs .container .card {  
+  width: 120vh;
+  height: 130vh;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  top: 100vh;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0 0 10px 0 rgba(245, 139, 0, 0.5);
+  transition: 0.4s ease;
+  background-size: auto;
+}
+
+#reservs .container .card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#reservs .container .card h1 {
+  position: absolute;
+  z-index: 1;
+  color: #fff;
+  font-size: 5rem;
+  margin-top: 150px;
+  align-items: center;
+  text-shadow: 8px 2px #283618;
+}
+
+#reservs .container .card .p1 {
+  position: absolute;
+  z-index: 9;
+  width: 490px;
+  color: #fff;
+  margin-top: 290px;
+  text-align: left;
+  font-size: 25px;
+  text-shadow: 2px 1px #283618;
+}
+#reservs .container .card .p2 {
+  position: absolute;
+  z-index: 9;
+  width: 490px;
+  color: #fff;
+  margin-top: 490px;
+  text-align: left;
+  font-size: 25px;
+  text-shadow: 2px 1px #283618;
+}
+#reservs .container .card button {
+  position: absolute;
+  z-index: 9;
+  margin-top: 850px;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: none;
+  color: #fff;
+  background-color: #dda15e;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+#reservs .container .card button:hover {
+  color: #fff;
+  transition: 0.4s;
+  background-color: #283618;
+}
+
+/*==Rodapé/reserva==*/
+
+#rodaprs {
+  background-color: #606c38;
+  width: 94.9%;
+  display: flex;
+  flex-direction: row;
+  margin-top: 135px;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: .60416% 50px; /*==localidade do texto==*/
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  z-index: 1;
+}
+
+#rodaprs h2 {
+  color: #dda15e;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 1.5625em; /*25px*/
+  float: left;
+}
+
+#rodaprs span {
+  font-weight: 800;
+  margin: 0 0 0 30%;
+}
+
+.text1 {
+  width: auto;
+  height: 109px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  float: right;
+  padding: 30px 0; /*200px*/
+}
+
+#rodaprs ul a {
+  color: white;
+  padding: 5px 30px; /*10px*/
+}
+
+#rodaprs ul a:hover {
+  color: #dda15e;
+  transition: 0.4s;
+}
+
+#rodaprs ul a:hover,
+a:link,
+a:active,
+a:visited {
+  text-decoration: none;
+}
+
+.copy {
+  color: white;
+}
+.grupo {
+  background-color: #606c38;
+}
+.grupo a {
+  color: white;
+  padding-top: 20px;
+}
+.grupo a:hover {
+  color: #dda15e;
+  transition: 0.4s;
+}
+.grupo a :hover,
+a:link,
+a:active,
+a:visited {
+  text-decoration: none;
+}

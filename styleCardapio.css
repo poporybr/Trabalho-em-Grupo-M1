@@ -1,0 +1,462 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;800&display=swap');
+
+* {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Inter;
+    width: 100%;
+    margin: 0;
+
+}
+
+
+/*parte executada por Monique*/
+
+#menu {
+    background-color: white;
+    width: 100%;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    padding: 20px 0 20px 0;
+
+}
+
+#menu h2 {
+    color: #dda15e;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+h2 a:hover,
+a:link,
+a:active,
+a:visited {
+    text-decoration: none;
+}
+
+#menu span {
+    color: #606c38;
+    font-weight: 800;
+}
+
+#menu ul a {
+    color: #283618;
+    text-decoration: none;
+    margin: 0 30px;
+}
+
+#menu ul a:hover {
+    color: #dda15e;
+    transition: .4s;
+}
+
+.btn {
+    background-color: #dda15e;
+    color: white;
+    text-decoration: none;
+    border: 12px solid transparent;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: transform .4s;
+}
+
+.btn:hover {
+    background-color: #606c38;
+}
+
+/*parte executada por Monique*/
+
+
+/*código executado por Thais */
+.display_flex_row_center {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.imagemNossoCardapio {
+    background-image: url('http://blog.bancadoramon.com.br/wp-content/uploads/2021/06/shutterstock_1776970640.jpg');
+    background-size: cover;
+    height: 40vh;
+    width: 100%;
+    margin: 0;
+    border-radius: 10px;
+
+    align-items: center;
+
+}
+
+.imagemNossoCardapio h1 {
+    text-shadow: black 8px 5px;
+    color: white;
+    font-size: 50px;
+
+}
+
+.decoracaoNossoCardapio {
+    background-image: url('https://www.outback.com.br/_next/static/images/ornament-1b1a66d1eb17137f910cbc11024f9a80.png');
+    height: 52px;
+    margin: 25px 0 25px 0;
+
+}
+
+.opcoesMenu {
+    margin-top: 16px;
+    height: 11vh;
+    width: 100%;
+    background-color: #dda15e;
+    border-radius: 10px;
+    letter-spacing: 1px;
+    color: white;
+
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: center;
+
+}
+
+.opcoesMenu a {
+    color: white;
+
+}
+
+.opcaoUm,
+.opcaoDois,
+.opcaoTres {
+    border-radius: 10px;
+    width: 200px;
+    backdrop-filter: blur(10px);
+    background-color: #606c38;
+    text-align: center;
+
+}
+
+.opcaoUm:hover,
+.opcaoDois:hover,
+.opcaoTres:hover {
+    background-color: #283618;
+
+}
+
+img {
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+
+}
+
+.nomeprato {
+    font-size: 24px;
+
+}
+
+.separarOpcoes {
+    height: 10vh;
+    width: 100%;
+    margin-top: 10px;
+    background-color: #dda15e;
+    color: white;
+    text-align: center;
+    letter-spacing: 1px;
+    border-radius: 10px;
+
+}
+
+.subtitulos {
+    width: 100%;
+    height: 50px;
+    margin-top: 5px;
+    border-radius: 10px;
+    text-align: center;
+
+    align-items: center;
+
+}
+
+.subtitulos h1 {
+    width: 450px;
+    background-color: #dda15e;
+    color: white;
+    border-radius: 10px;
+    letter-spacing: 0.5px;
+    text-align: center;
+
+}
+
+.pratosPrincipais {
+    height: auto;
+    border-radius: 10px;
+    padding: 30px 0 30px;
+    margin-top: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+
+}
+
+.imagensPratosPrincipais {
+    margin: 40px 10px 40px 10px;
+    border-radius: 10px;
+
+    flex-wrap: wrap;
+    justify-content: stretch;
+    align-items: center;
+
+}
+
+.imagensPratosPrincipais p {
+
+    width: 200px;
+    padding: 10px;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+
+}
+
+
+.sobremesas {
+    height: auto;
+    border-radius: 10px;
+    margin-top: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.imagensSobremesas {
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.imagensSobremesas p {
+    width: 200px;
+    padding: 10px;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+
+}
+
+.bebidas {
+    height: auto;
+    border-radius: 10px;
+    margin: 10px 0 10px 0;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    text-align: center;
+}
+
+.bebidas li {
+    list-style: none;
+    padding: 2px;
+    letter-spacing: 0.5;
+}
+
+/*código executado por Thais */
+
+
+/* parte executada por Monique e Eduardo*/
+footer {
+    background-color: #606c38;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+footer h2 {
+    color: #dda15e;
+    font-weight: 500;
+    text-transform: uppercase;
+    width: auto;
+
+}
+
+footer span {
+    font-weight: 800;
+    margin: 0 0 0 30%;
+
+
+}
+
+.text1 {
+    width: auto;
+    height: 109px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    float: right;
+    padding: 30px 0;
+
+}
+
+footer a {
+    color: white;
+}
+
+footer ul a {
+    color: white;
+    padding: 5px 30px;
+}
+
+footer ul a:hover {
+    color: #dda15e;
+    transition: .4s;
+}
+
+footer ul a:hover,
+a:link,
+a:active,
+a:visited {
+    text-decoration: none;
+}
+
+/* parte executada por Monique e Eduardo*/
+@media(max-width:800px) {
+    * {
+        overflow-x: hidden;
+    }
+    #menu{
+        padding: 0;
+    }
+    #menu span{
+        font-size: 19px;
+    }
+    #menu h2 {
+        min-width: 210px;
+       
+    }
+    #menu ul{
+        width: 210px;
+        font-size: 10px;
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+        text-align: center;
+    }
+    #menu ul a{
+        padding: 0;
+    }
+    .btn {
+        font-size: 10px;
+
+        text-align: center;
+        flex-wrap: nowrap;
+        width: 165px;
+        }
+
+    .imagemNossoCardapio {
+        height: 15vh;
+
+    }
+
+    .imagemNossoCardapio h1 {
+        font-size: 20px;
+    }
+
+    .decoracaoNossoCardapio {
+        height: 25px;
+        background-size: cover;
+        margin: 8px;
+    }
+
+    .opcoesMenu {
+        height: 5vh;
+        margin: 0;
+
+    }
+
+    .opcaoUm,
+    .opcaoDois,
+    .opcaoTres {
+
+        width: 110px;
+        font-size: 8px;
+    }
+
+    .separarOpcoes {
+        font-size: 8px;
+        height: 5vh;
+
+    }
+
+    .pratosPrincipais {
+        height: auto;
+
+
+    }
+
+    .imagensPratosPrincipais {
+        flex-direction: column;
+    }
+
+    .sobremesas {
+        height: auto;
+    }
+
+    .imagensSobremesas {
+        flex-direction: column;
+    }
+
+    footer {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    footer h2 {
+        font-size: 24px;
+        width: 210px;
+        
+    }
+
+    .text1 {
+        height: auto;
+        text-align: center;
+    }
+}
+
+.botao{
+    width: 100%;
+    height: auto;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.voltar a{
+    width: 70px;
+    height: 70px;
+    color: #dda15e;
+   background-color: #283618;
+    text-align: center;
+    border-radius: 50%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.voltar a:hover{
+    background-color: #dda15e;
+    color: #283618;
+}
