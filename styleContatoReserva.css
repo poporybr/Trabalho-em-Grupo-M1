@@ -521,3 +521,21 @@ a:active,
 a:visited {
   text-decoration: none;
 }
+@media (max-whidth: 800px){
+  footer {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    footer h2 {
+        font-size: 24px;
+        width: 210px;
+        
+    }
+
+    .text1 {
+        height: auto;
+        text-align: center;
+    }
+}
